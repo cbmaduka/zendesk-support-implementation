@@ -2,15 +2,15 @@
 
 ## Project Overview
 
-This repository documents the implementation of a Zendesk Support environment for **Gochelicious**, a fictional food delivery company. The project demonstrates practical experience configuring Zendesk to improve customer support operations through ticket management, workflow automation, service level agreements, reporting, and knowledge management.
+This repository documents the implementation of a Zendesk Support environment for **Gochelicious**, a fictional fashion and lifestyle brand. The project demonstrates practical experience configuring Zendesk to improve customer support operations through ticket management, workflow automation, service level agreements, reporting, and knowledge management.
 
 ---
 
 ## Business Background
 
-Gochelicious is a growing food delivery company that receives customer enquiries relating to order tracking, late deliveries, payment issues, refunds, and general support requests. As customer demand increased, the business required a centralized customer support platform capable of organizing tickets, automating repetitive tasks, and improving response times.
+Gochelicious is a growing fashion and lifestyle brand specializing in contemporary clothing and accessories through its online store. As customer orders increased, the company required a centralized customer support platform capable of managing enquiries related to order tracking, product availability, sizing, returns, exchanges, refunds, damaged items, and payment issues.
 
-Zendesk Support was selected to streamline customer service operations, automate ticket routing, monitor service performance, and provide customers with self-service resources through a knowledge base.
+Zendesk Support was selected to streamline customer service operations by organizing customer requests, automating ticket routing, enforcing Service Level Agreements (SLAs), and providing customers with self-service resources through a comprehensive Help Center.
 
 ---
 
@@ -19,18 +19,19 @@ Zendesk Support was selected to streamline customer service operations, automate
 The implementation aims to:
 
 - Centralize customer support requests.
-- Improve ticket routing through automation.
-- Configure service level agreements (SLAs).
-- Reduce manual support processes.
-- Improve response and resolution times.
+- Automate ticket routing based on enquiry type.
+- Improve customer response and resolution times.
+- Configure Service Level Agreements (SLAs).
+- Reduce manual ticket assignment.
 - Build a customer self-service knowledge base.
 - Monitor support performance through reporting and analytics.
+- Enhance the overall customer experience.
 
 ---
 
 ## Solution Overview
 
-This Zendesk implementation includes customer support configuration, business rules, workflow automation, ticket management, SLA configuration, reporting dashboards, and Help Center customization.
+This implementation demonstrates the configuration of Zendesk Support for a fashion e-commerce business, including user management, organizations, custom ticket fields, ticket forms, workflow automation, Service Level Agreements (SLAs), reporting dashboards, and Help Center customization.
 
 ---
 
@@ -45,7 +46,7 @@ This Zendesk implementation includes customer support configuration, business ru
 - Triggers
 - Automations
 - Macros
-- SLA Policies
+- Service Level Agreements (SLAs)
 - Help Center
 - Reporting & Analytics
 
@@ -79,9 +80,9 @@ zendesk-support-implementation/
 
 ## Project Walkthrough
 
-The project will demonstrate the complete Zendesk implementation process, including account configuration, customer support workflow design, ticket customization, automation rules, SLA configuration, knowledge base creation, and reporting.
+The project demonstrates the complete Zendesk implementation process, from initial workspace configuration to customer support workflow design, ticket customization, workflow automation, SLA configuration, Help Center creation, and reporting.
 
-Screenshots documenting each stage of the implementation are available throughout this repository.
+Each configuration step is documented with screenshots to provide a practical walkthrough of the implementation process.
 
 ---
 
@@ -97,7 +98,7 @@ Screenshots documenting each stage of the implementation are available throughou
 - Customer Support Operations
 - Workflow Automation
 - Ticket Lifecycle Management
-- SLA Configuration
+- Service Level Agreement (SLA) Configuration
 - Customer Experience Management
 - Knowledge Base Management
 - Reporting & Analytics
@@ -107,7 +108,7 @@ Screenshots documenting each stage of the implementation are available throughou
 
 ## Business Outcomes
 
-The completed implementation will demonstrate how Zendesk can improve customer support efficiency through automation, structured ticket management, standardized workflows, and performance monitoring.
+The completed implementation demonstrates how Zendesk can improve customer support efficiency by automating ticket routing, reducing manual processes, improving SLA compliance, providing customers with self-service resources, and enabling data-driven support operations through reporting and analytics.
 
 ---
 
@@ -115,17 +116,18 @@ The completed implementation will demonstrate how Zendesk can improve customer s
 
 Potential future enhancements include:
 
-- Omnichannel Support
+- Omnichannel Customer Support
 - AI-powered Customer Assistance
 - Live Chat Integration
-- Customer Satisfaction Surveys
-- Third-party CRM Integrations
+- Customer Satisfaction (CSAT) Surveys
+- CRM Integrations
 - Advanced Reporting Dashboards
+- Social Media Support Channels
 
 ---
 
 ## Author
 
-**Gift Maduka**
+**Chika Blessing**
 
-Project Management Professional (PMP) | CRM Administrator | Customer Support Operations | Workflow Automation
+Executive Business Partner | Success Partner | Healthcare Operations Specialist | CRM & Workflow Automation | Project Manager | Executive Virtual Assistant | Customer Success
