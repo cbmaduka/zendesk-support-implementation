@@ -1,133 +1,395 @@
-# Zendesk Support Implementation
+# Zendesk Customer Support Implementation for Gochelicious
 
-## Project Overview
+<p align="center">
+<img src="screenshots/dashboard/dashboard-overview.png" width="100%">
+</p>
 
-This repository documents the implementation of a Zendesk Support environment for **Gochelicious**, a fictional fashion and lifestyle brand. The project demonstrates practical experience configuring Zendesk to improve customer support operations through ticket management, workflow automation, service level agreements, reporting, and knowledge management.
+<p align="center">
 
----
+![Zendesk](https://img.shields.io/badge/Zendesk-Support-success?style=for-the-badge)
+![CRM](https://img.shields.io/badge/CRM-Implementation-blue?style=for-the-badge)
+![Automation](https://img.shields.io/badge/Workflow-Automation-orange?style=for-the-badge)
+![Knowledge Base](https://img.shields.io/badge/Knowledge-Management-green?style=for-the-badge)
 
-## Business Background
-
-Gochelicious is a growing fashion and lifestyle brand specializing in contemporary clothing and accessories through its online store. As customer orders increased, the company required a centralized customer support platform capable of managing enquiries related to order tracking, product availability, sizing, returns, exchanges, refunds, damaged items, and payment issues.
-
-Zendesk Support was selected to streamline customer service operations by organizing customer requests, automating ticket routing, enforcing Service Level Agreements (SLAs), and providing customers with self-service resources through a comprehensive Help Center.
-
----
-
-## Project Objectives
-
-The implementation aims to:
-
-- Centralize customer support requests.
-- Automate ticket routing based on enquiry type.
-- Improve customer response and resolution times.
-- Configure Service Level Agreements (SLAs).
-- Reduce manual ticket assignment.
-- Build a customer self-service knowledge base.
-- Monitor support performance through reporting and analytics.
-- Enhance the overall customer experience.
+</p>
 
 ---
 
-## Solution Overview
+# Project Overview
 
-This implementation demonstrates the configuration of Zendesk Support for a fashion e-commerce business, including user management, organizations, custom ticket fields, ticket forms, workflow automation, Service Level Agreements (SLAs), reporting dashboards, and Help Center customization.
+This project showcases the complete implementation of a Zendesk Support environment for **Gochelicious**, a premium food and hospitality brand.
+
+The solution was designed to improve customer support operations through workflow automation, intelligent ticket routing, structured ticket forms, SLA management, knowledge management, macros, and business reporting.
+
+The implementation demonstrates how Zendesk can streamline customer service while improving operational efficiency and customer satisfaction.
 
 ---
 
-## Zendesk Features Implemented
+# Business Objectives
 
-- User Management
-- Organizations
-- Support Groups
+The implementation was designed to:
+
+- Improve customer response times
+- Standardize support workflows
+- Automate ticket routing
+- Reduce manual agent effort
+- Create a searchable customer knowledge base
+- Implement SLA-driven customer service
+- Improve reporting and operational visibility
+
+---
+
+# Solution Overview
+
+The Zendesk environment includes:
+
+- Custom Ticket Forms
 - Custom Ticket Fields
-- Ticket Forms
-- Ticket Views
-- Triggers
-- Automations
+- Support Groups
+- Team Member Configuration
+- Business Triggers
+- Ticket Automations
+- SLA Policies
+- Business Hours
+- Knowledge Base
 - Macros
-- Service Level Agreements (SLAs)
-- Help Center
-- Reporting & Analytics
+- Zendesk Explore Analytics
+- Agent Workspace Configuration
 
 ---
 
-## Repository Structure
+# Features Implemented
 
-```text
+---
+
+## Customer Support Forms & Custom Fields
+
+<table>
+<tr>
+
+<td width="50%">
+
+<img src="screenshots/forms/customer-support-request-form.png">
+
+### Customer Support Form
+
+Purpose-built support form that captures structured customer requests, ensuring agents receive complete and consistent information.
+
+</td>
+
+<td width="50%">
+
+<img src="screenshots/fields/custom-ticket-fields.png">
+
+### Custom Ticket Fields
+
+Custom fields were created to capture:
+
+- Order Number
+- Order Status
+- Payment Method
+- Product Category
+- Product Size
+- Product Color
+- Return Reason
+- Exchange Request
+
+</td>
+
+</tr>
+</table>
+
+---
+
+## Team Structure & Support Groups
+
+<table>
+<tr>
+
+<td width="50%">
+
+<img src="screenshots/users/team-members-overview.png">
+
+### Team Members
+
+Configured agents with appropriate roles, permissions and product access.
+
+</td>
+
+<td width="50%">
+
+<img src="screenshots/organizations/support-groups-configuration.png">
+
+### Support Groups
+
+Created specialized support groups for:
+
+- Customer Support
+- Shipping & Delivery
+- Returns & Exchanges
+- Payments & Billing
+- VIP Customer Support
+- Orders
+
+</td>
+
+</tr>
+</table>
+
+---
+
+## Workflow Automation
+
+<table>
+<tr>
+
+<td width="50%">
+
+<img src="screenshots/triggers/business-triggers.png">
+
+### Business Triggers
+
+Configured automated ticket routing for:
+
+- VIP Customers
+- Shipping Enquiries
+- Returns & Exchanges
+- Payment Issues
+- Customer Acknowledgements
+
+</td>
+
+<td width="50%">
+
+<img src="screenshots/automations/business-automations-overview.png">
+
+### Ticket Automations
+
+Built automations for:
+
+- Ticket Escalation
+- Customer Follow-up
+- VIP Escalation
+- Return Management
+- Auto Ticket Closure
+
+</td>
+
+</tr>
+</table>
+
+---
+
+## SLA Management
+
+<table>
+<tr>
+
+<td width="50%">
+
+<img src="screenshots/sla/business-sla-policies.png">
+
+### SLA Policies
+
+Configured response and resolution targets for:
+
+- Standard Customers
+- Gold Customers
+- Corporate Clients
+- VIP Customers
+
+</td>
+
+<td width="50%">
+
+<img src="screenshots/schedules/business-hours-calendar.png">
+
+### Business Hours
+
+Configured operating schedules used for SLA calculations and support availability.
+
+</td>
+
+</tr>
+</table>
+
+---
+
+## Knowledge Base
+
+<table>
+<tr>
+
+<td width="50%">
+
+<img src="screenshots/help-center/knowledge-articles-overview.png">
+
+### Help Center
+
+Developed customer-facing knowledge articles covering common support questions.
+
+</td>
+
+<td width="50%">
+
+<img src="screenshots/help-center/knowledge-article-editor.png">
+
+### Article Management
+
+Created structured articles covering:
+
+- Order Status
+- Shipping
+- Refunds
+- Returns
+- Payments
+- Corporate Orders
+- VIP Membership
+- Customer Support
+
+</td>
+
+</tr>
+</table>
+
+---
+
+## Agent Productivity
+
+<table>
+<tr>
+
+<td width="50%">
+
+<img src="screenshots/macros/macros-overview.png">
+
+### Macros
+
+Created reusable macros for common customer interactions, improving response consistency and reducing handling time.
+
+</td>
+
+<td width="50%">
+
+<img src="screenshots/dashboard/dashboard-overview.png">
+
+### Agent Workspace
+
+Configured the Zendesk Agent Workspace to provide an organized environment for ticket management and agent productivity.
+
+</td>
+
+</tr>
+</table>
+
+---
+
+## Reporting & Analytics
+
+<table>
+<tr>
+
+<td width="50%">
+
+<img src="screenshots/reports/explore-activation.png">
+
+### Zendesk Explore
+
+Enabled Zendesk Explore analytics to support operational reporting and customer service performance monitoring.
+
+</td>
+
+<td width="50%">
+
+<img src="screenshots/reports/explore-provisioning.png">
+
+### Analytics Provisioning
+
+Analytics provisioning was initiated during implementation. Dashboard generation was pending completion while the Zendesk trial environment was still provisioning Explore services.
+
+</td>
+
+</tr>
+</table>
+
+---
+
+# Repository Structure
+
+```
 zendesk-support-implementation/
-│
+
 ├── README.md
+
 ├── screenshots/
 │   ├── dashboard/
+│   ├── forms/
+│   ├── fields/
 │   ├── users/
 │   ├── organizations/
-│   ├── fields/
-│   ├── forms/
-│   ├── views/
 │   ├── triggers/
 │   ├── automations/
-│   ├── macros/
 │   ├── sla/
+│   ├── schedules/
 │   ├── help-center/
-│   └── reports/
-│
+│   ├── reports/
+│   └── macros/
+
 ├── documentation/
-└── assets/
+│   ├── Zendesk Setup Guide.pdf
+│   ├── Ticket Workflow.pdf
+│   └── Knowledge Base Guide.pdf
+
 ```
 
 ---
 
-## Project Walkthrough
+# Skills Demonstrated
 
-The project demonstrates the complete Zendesk implementation process, from initial workspace configuration to customer support workflow design, ticket customization, workflow automation, SLA configuration, Help Center creation, and reporting.
-
-Each configuration step is documented with screenshots to provide a practical walkthrough of the implementation process.
-
----
-
-## Key Configuration Screenshots
-
-> Screenshots will be added as the implementation progresses.
-
----
-
-## Skills Demonstrated
-
-- Zendesk Administration
-- Customer Support Operations
+- Zendesk Support Administration
+- CRM Implementation
 - Workflow Automation
 - Ticket Lifecycle Management
-- Service Level Agreement (SLA) Configuration
-- Customer Experience Management
-- Knowledge Base Management
+- SLA Configuration
+- Customer Service Operations
+- Business Process Design
+- Knowledge Management
+- Help Center Administration
+- Macros
+- Ticket Forms
+- Custom Fields
+- Support Group Management
 - Reporting & Analytics
-- Business Process Improvement
+- Customer Experience Optimization
 
 ---
 
-## Business Outcomes
+# Project Outcomes
 
-The completed implementation demonstrates how Zendesk can improve customer support efficiency by automating ticket routing, reducing manual processes, improving SLA compliance, providing customers with self-service resources, and enabling data-driven support operations through reporting and analytics.
+✔ Complete Zendesk Support implementation
 
----
+✔ Structured customer ticket workflows
 
-## Future Improvements
+✔ Automated routing and ticket management
 
-Potential future enhancements include:
+✔ SLA-driven customer support
 
-- Omnichannel Customer Support
-- AI-powered Customer Assistance
-- Live Chat Integration
-- Customer Satisfaction (CSAT) Surveys
-- CRM Integrations
-- Advanced Reporting Dashboards
-- Social Media Support Channels
+✔ Centralized knowledge base
+
+✔ Improved agent productivity
+
+✔ Scalable support operations
 
 ---
 
-## Author
+# Author
 
-**Chika Blessing**
+## Chika Blessing
 
-Executive Business Partner | Success Partner | Healthcare Operations Specialist | CRM & Workflow Automation | Project Manager | Executive Virtual Assistant | Customer Success
+**Executive Business Partner | Success Partner | Healthcare Operations Specialist | CRM & Workflow Automation | Project Manager | Executive Virtual Assistant | Customer Success**
+
+This project demonstrates my ability to design and implement scalable customer support operations using Zendesk, including workflow automation, ticket lifecycle management, SLA configuration, knowledge management, and customer experience optimization.
+
+---
+
+⭐ If you found this project interesting, feel free to explore the repository or connect with me on LinkedIn.
