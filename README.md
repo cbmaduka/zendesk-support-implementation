@@ -382,14 +382,14 @@ zendesk-support-implementation/
 
 ---
 
+This project demonstrates my ability to design and implement scalable customer support operations using Zendesk, including workflow automation, ticket lifecycle management, SLA configuration, knowledge management, and customer experience optimization.
+
 # Author
 
 ## Chika Blessing
 
 **Executive Business Partner | Success Partner | Healthcare Operations Specialist | CRM & Workflow Automation | Project Manager | Executive Virtual Assistant | Customer Success**
 
-This project demonstrates my ability to design and implement scalable customer support operations using Zendesk, including workflow automation, ticket lifecycle management, SLA configuration, knowledge management, and customer experience optimization.
-
 ---
-
-⭐ If you found this project interesting, feel free to explore the repository or connect with me on LinkedIn.
+"Same warmth, wherever you find me."
+⭐ If you found this project interesting, feel free to explore the repository or connect with me on www.linkedin.com/in/blessing-c-success-partner.
